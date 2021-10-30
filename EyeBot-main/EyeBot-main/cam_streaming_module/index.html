@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project cs2</title>
+</head>
+<body>
+	<canvas id="videoCanvas" width="100%" height="100%" style="height: 100% !important;width: 100% !important;">
+	</canvas>
+	<script type="text/javascript" src="jsmpg.js"></script>
+	<script type="text/javascript">
+		// Show loading notice
+		var canvas = document.getElementById('videoCanvas');
+		var ctx = canvas.getContext('2d');
+		ctx.fillStyle = '${COLOR}';
+		ctx.fillText('Loading...', canvas.width/2-30, canvas.height/3);
+
+		// Setup the WebSocket connection and start the player
+		var client = new WebSocket('ws://' + window.location.hostname + ':${WS_PORT}/');
+		var player = new jsmpeg(client, {canvas:canvas});
+	</script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[Unit]
+Description=motor control service
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pi/project/motor_control_module/main.py
+StandardOutput=file:/home/pi/project/motor_control_module/log/logfile
+StandardError=file:/home/pi/project/motor_control_module/log/logfile
+
+[Install]
+WantedBy=multi-user.target
