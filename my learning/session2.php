@@ -1,10 +1,9 @@
-<?php session_start();
+<?php
 
-echo $_SESSION['greeting'];
+   session_start();
+   echo $_SESSION['greeting'];
 
-
-?>
-
+    ?>
 
 
 
@@ -16,6 +15,9 @@ echo $_SESSION['greeting'];
     <title>Document</title>
 </head>
 <body>
+<?php
+
+    ?>
 
 </body>
 </html>

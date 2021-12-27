@@ -16,12 +16,19 @@
 	
 	<?php  
 
-/*  Step1: Define a function and make it return a calculation of 2 numbers
+//  Step1: Define a function and make it return a calculation of 2 numbers
+function calculator($firstNum,$secondNum){
+    $devision = $firstNum / $secondNum;
+    return $devision;
+      
+}
 
-	Step 2: Make a function that passes parameters and call it using parameter values
+    $result = calculator(20,5);
+    echo $result;
+//Step 2: Make a function that passes parameters and call it using parameter values
 
 
- */
+
 
 	
 ?>

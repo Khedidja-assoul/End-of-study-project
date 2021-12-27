@@ -1,3 +1,4 @@
+
 <?php include "functions.php" ?>
 <?php include "includes/header.php" ?>
 
@@ -11,20 +12,28 @@
 
 
 <article class="main-content col-xs-8">
+<form action="6.php" method="post">
+   <input type="text" placeholder="type a name here" name="name">
+   <input type="submit" name="submit">
+    
+</form>
+ 
 
-	
 	<?php  
 
-/*  Step1: Make a form that submits one value to POST super global
+//  Step1: Make a form that submits one value to POST super global
+    if (isset($_POST['submit'])){
+        $name = $_POST['name'];
+        echo $name;
+        
+    }
+    
 
 
- */
+
 
 	
 ?>
-
-
-
 
 
 </article><!--MAIN CONTENT-->

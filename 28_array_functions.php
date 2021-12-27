@@ -5,24 +5,26 @@
     <title>Document</title>
 </head>
 <body>
-   
+
 <?php 
 
-$number = 10;
+$list = [343,34,323,23,54,232,453];
 
-$number = 345;
+echo max($list);
 
-define('NUMBER', 1000);
-
-//NUMBER = 34532;
-
-echo 'constant ' . NUMBER;
 echo "<br>";
-echo 'variable ' .  $number;
     
+echo min($list);
+
+
+echo "<br>";
+
+sort($list);
     
-?>   
-   
-    
+print_r($list);
+
+
+?>
+
 </body>
 </html>

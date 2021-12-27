@@ -14,17 +14,35 @@
 
 
 			<article class="main-content col-xs-8">
-
+			
+			<a href="9.php?source=123">CLICK HERE</a>
+			
+		
 	
-	<?php  
+	<?php 
 
 	/*  Create a link saying Click Here, and set 
-	the link href to pass some parameters and use the GET super global to see it
+	the link href to pass some parameters and use the GET super global to see it*/
+    if (isset($_GET['source'])){
+        echo $_GET['source'];
+        
+    }
+        
 
-		Step 2 - Set a cookie that expires in one week
-
-		Step 3 - Start a session and set it to value, any value you want.
-	*/
+    // Step 2 - Set a cookie that expires in one week
+                
+    $name = "nana";
+    $value = 129;
+    $expiration = time() + (60*60*24*7);
+    
+    setcookie($name,$value,$expiration);
+    
+    // Step 3 - Start a session and set it to value, any value you want.
+    
+    session_start();
+    $_SESSION['bienvenue'] = "olla amigos!!";
+    
+	
 	
 	?>
 

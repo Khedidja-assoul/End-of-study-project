@@ -5,13 +5,22 @@
     <title>Document</title>
 </head>
 <body>
+ 
+ <?php 
 
-<?php 
-    
-echo time();    
-    
+$title = "Edwin Diaz's Site";
     
 ?>
+  
+  
 
+  
+ <h1><?php echo $title; ?></h1>  
+   
+   
+   
+    
 </body>
 </html>
+
+

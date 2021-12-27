@@ -5,6 +5,12 @@
     <title>Document</title>
 </head>
 <body>
+<?php
+    
+    define("nana","the best");
+    echo nana;
+
+    ?>
 
 </body>
 </html>

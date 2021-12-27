@@ -5,36 +5,31 @@
     <title>Document</title>
 </head>
 <body>
-<?php 
+<?php
 
-$number1 = 30;
-$number2 = 30;
-  
-echo ((10 + 20 + $number1) * $number2) / 45 - 2;
 
-echo "<br>";
-
-echo pow(4, 24);
-
-echo "<br>";
-
-echo sqrt(200);
-
-echo "<br>";
-
-echo rand();
+echo pow(2,7);
 
 echo "<br>";
 
 echo rand(1, 1000);
 
+echo "<br>";
 
+echo sqrt(100);
 
 echo "<br>";
 
-echo ceil(10.6);
+echo ceil(4.6);
 
-    
+echo "<br>";
+
+echo floor(4.6);
+
+echo "<br>";
+
+echo round(4.5);
+
 ?>
 
 
