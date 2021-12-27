@@ -9,42 +9,28 @@
 			
 	</aside><!--SIDEBAR-->
 
-
 <article class="main-content col-xs-8">
-					     <!-- FUNCTION BELOW-->
 
-
-
-
-<ul>
 	
-<script>
+	<?php  
 
-//Step 1 - Make an array of any name you want, assign it 5 values, and they can be anything you want..
+	/*  Step 1: Use the Make a class called Dog
 
-//array here
+		Step 2: Set some properties for Dog, Example, eye colors, nose, or fur color
 
+		Step 4: Make a method named ShowAll that echos all the properties
 
-//Step 2 - Make a variable called counter and set the value to zero
+		Step 5: Instantiate the class / create object and call it pitbull
 
-//variabel here
+		Step 6: Call the method ShowAll
 
-//Step 3 - Make a while loop and set the counter variable less than 5 
+	
 
+		
+	*/
+	
+	?>
 
-//loop here
-
-// Step 4 - use document.write() inside the loop along with <li></li> html tags. Use the name of the array and use brackets to put the counter inside,  just like we did on the video.
-
-
-
-
-</script>
-
-
-</ul>
-
-<h1 id="divContent"></h1>
 
 
 
